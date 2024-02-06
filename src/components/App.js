@@ -15,7 +15,7 @@ const App = () => {
       <ol key="relativeList">
         {/* Map through the relatives array and generate list items */}
        
-        {relatives.map((relative, index=1) => (
+        {relatives.map((relative, index) => (
           <li key={`relativeListItem${index + 1}`}>{relative}</li>
         ))}
       </ol>
